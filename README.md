@@ -1,34 +1,22 @@
 # WordleHelper
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/WordleHelper`. To experiment with that code, run `bin/console` for an interactive prompt.
+If you are playing [Wordle](https://www.powerlanguage.co.uk/wordle/), this application is a helper for keeping track of letters and word choices. It's kind of cheaty, but whatever.
 
-TODO: Delete this and the text above, and describe your gem
+This is quick and dirty and not to be taken serious. It's a fun bit of code and works for me, but it is by FAR from being complete or efficient. YMMV
 
 ## Installation
 
-Add this line to your application's Gemfile:
+* You need a reasonably new version of Ruby. I used 3.0 for this. You also need the bundler gem.
+* Check out the code
+* Run `bundle install`
 
-```ruby
-gem 'WordleHelper'
-```
-
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
-
-    $ gem install WordleHelper
+That should be it!
 
 ## Usage
 
-TODO: Write usage instructions here
+Run the following script on OS X or Linux:
 
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+`exe/wordle-helper`
 
 ## Contributing
 
